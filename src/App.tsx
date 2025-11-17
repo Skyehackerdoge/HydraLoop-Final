@@ -142,12 +142,12 @@ export default function App(){
             <div className='bg-white dark:bg-gray-800 p-6 rounded-xl w-full max-w-md max-h-[80vh] overflow-y-auto'>
               <h2 className='text-lg font-bold mb-2'>FAQ</h2>
               <p className="whitespace-normal break-words break-normal leading-relaxed mb-3">
-                <strong>Q:</strong> Why is weight required? 
+                <strong>Q:</strong> Why is weight required?<br></br>
                 <strong>A:</strong> Your daily water need roughly scales with body mass. The app uses a simple heuristic of <strong>35 mL per kg</strong> to compute a reasonable daily target.
               </p>
               
               <p className="whitespace-normal break-words break-normal leading-relaxed mb-3">
-                <strong>Q:</strong> Why track your water intake? 
+                <strong>Q:</strong> Why track your water intake?<br></br>
                 <strong>A:</strong> Tracking helps consistency and builds a positive habit loop.
               </p>
 
