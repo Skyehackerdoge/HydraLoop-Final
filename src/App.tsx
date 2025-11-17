@@ -129,7 +129,9 @@ export default function App(){
           <div className='fixed inset-0 bg-black/40 flex items-center justify-center p-4 z-50'>
             <div className='bg-white dark:bg-gray-800 p-6 rounded-xl w-full max-w-md max-h-[80vh] overflow-y-auto'>
               <h2 className='text-lg font-bold mb-2'>About</h2>
-              <p>I made this app to remind myself to drink water regularly...</p>
+              <p className="whitespace-normal break-words break-normal leading-relaxed mb-3">
+                I made this app to remind myself to drink water regularly — in the daily hustle I often forget the simplest yet most crucial part of being healthy: staying hydrated. This app helps by nudging you, tracking progress, and celebrating small wins.
+              </p>
               <button onClick={()=>setAbout(false)} className='mt-3 bg-blue-500 text-white px-4 py-1 rounded'>Close</button>
             </div>
           </div>
@@ -139,8 +141,14 @@ export default function App(){
           <div className='fixed inset-0 bg-black/40 flex items-center justify-center p-4 z-50'>
             <div className='bg-white dark:bg-gray-800 p-6 rounded-xl w-full max-w-md max-h-[80vh] overflow-y-auto'>
               <h2 className='text-lg font-bold mb-2'>FAQ</h2>
-              <p>Why weight? 35mL per kg...</p>
-              <p>Why track? Helps consistency...</p>
+              <p className="whitespace-normal break-words break-normal leading-relaxed mb-3">
+                Why weight? Your daily water need roughly scales with body mass. The app uses a simple heuristic of <strong>35 mL per kg</strong> to compute a reasonable daily target.
+              </p>
+              
+              <p className="whitespace-normal break-words break-normal leading-relaxed mb-3">
+                Why track? Tracking helps consistency and builds a positive habit loop...
+              </p>
+
               <button onClick={()=>setFAQ(false)} className='mt-3 bg-blue-500 text-white px-4 py-1 rounded'>Close</button>
             </div>
           </div>
